@@ -1,0 +1,27 @@
+{
+  "name": "wax-ethereum-verify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@monica.thh.io:2259/wax/wax-ethereum-verify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-etherscan": "^2.1.0",
+    "@openzeppelin/hardhat-upgrades": "^1.4.3",
+    "ethers": "^5.0.24",
+    "hardhat": "^2.0.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
